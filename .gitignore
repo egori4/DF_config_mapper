@@ -1,2 +1,2 @@
-DF_config_input/
-DF_mapping_output/
+DF_mapping_output/*.csv
+DF_config_input/*.json

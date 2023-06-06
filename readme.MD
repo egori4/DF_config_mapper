@@ -15,6 +15,6 @@ Script parses DefenseFlow config and maps 'PO name','adminStatus', 'overrideTemp
 
 2. Run the script
 
-3. python3 dp_config_mapper.py 
+python3 dp_config_mapper.py 
 
-Output file in csv format will be created in DF_mapping_output directory
+3. Output file in csv format will be created in DF_mapping_output directory
