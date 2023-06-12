@@ -46,11 +46,11 @@ csvwriter = csv.writer(csv_file)
 
 # write header
 
-csvwriter.writerow(['name','adminStatus', 'overrideTemplate',])
+csvwriter.writerow(['name','adminStatus', 'Workflow', 'Security Template on PO(override)',])
 
 # write rows
 for row in json_dic:
-    csvwriter.writerow([row['name'], row['adminStatus'], row['overrideTemplate']['name']])
+    csvwriter.writerow([row['name'], row['adminStatus'], row['workflow'], row['overrideTemplate']['name']])
 	
 # close files
 f.close()
