@@ -9,9 +9,13 @@ v1.0
 
 Script parses DefenseFlow config and maps 'PO name','adminStatus', 'overrideTemplate'
 
+V1.1
+- Removed empty lines
+- Added mapping Workflows
+
 # How to run
 
-1. Put defenseflow config to /DF_config_input directory  
+1. Put defenseflow config "protected_object_configuration.json" to /DF_config_input directory  
 
 2. Run the script
 

@@ -39,7 +39,7 @@ json_dic = data['protectedObjects']
 
 # open csv file
 
-csv_file = open(csv_file_path, 'w')
+csv_file = open(csv_file_path, 'w', newline='')
 
 # create csv writer
 csvwriter = csv.writer(csv_file)
